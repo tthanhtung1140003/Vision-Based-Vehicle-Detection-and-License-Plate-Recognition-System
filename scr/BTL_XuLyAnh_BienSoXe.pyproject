@@ -1,0 +1,14 @@
+{
+    "files": [
+        "mainwindow.py",
+        "form.ui",
+        "detect_licensePlate.py",
+        "OCR.py",
+        "plate_detect.py",
+        "warpingplate.py",
+        "image_converter.py",
+        "resize.py",
+        "checkID.py",
+        "BTL_XuLyAnh_BienSoXe.pyproject.user"
+    ]
+}
