@@ -1,5 +1,5 @@
 
-```md
+
 ## OVERVIEW OF THE PROCESSING PIPELINE
 
 *(Detailed System Workflow)*
@@ -182,7 +182,5 @@ The system continuously repeats the processing cycle.
 ![Qt GUI](images/5.png)
 
 ---
-````
 
----
 
