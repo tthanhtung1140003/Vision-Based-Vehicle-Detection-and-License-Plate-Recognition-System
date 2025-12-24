@@ -34,7 +34,7 @@
 #             print("Unable to open serial port.")
 #             sys.exit()
 
-#         img_path = r"D:\OneDrive - Hanoi University of Science and Technology\Documents\2024.1\Xử lý ảnh\BTL_XuLyAnh_BienSoXe\Video\7.png"
+#         img_path = r"...."
 #         input_img = cv2.imread(img_path)
 #         input_img = resize_image(input_img, 780)
 
@@ -103,8 +103,8 @@ class MainWindow(QMainWindow):
         self.serial_port.readyRead.connect(self.read_serial_data)
         self.buffer = ""  
 
-        video_path = r"Video\x.mp4" 
-        self.cap = cv2.VideoCapture(video_path)
+        video_path = r"...." 
+        self.cap = cv2.VideoCapture(video_path) # 0 if using webcam
         if not self.cap.isOpened():
             print("Unable to open video file.")
             sys.exit()

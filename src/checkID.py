@@ -30,8 +30,3 @@ def check_rfid_plate(rfid_id, license_plate, file_path, threshold=0.6):
         return 0
 
 
-rfid_id = "12345678"
-license_plate = "30K91911"
-file_path = "data.txt"
-result = check_rfid_plate(rfid_id, license_plate, file_path)
-print(result)  
